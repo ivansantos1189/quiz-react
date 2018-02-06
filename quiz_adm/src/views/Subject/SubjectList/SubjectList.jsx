@@ -5,6 +5,7 @@ import {
     Card,
     CardHeader,
     CardBody,
+    Button,
     Table
 } from 'reactstrap'
 import { connect } from 'react-redux'
@@ -35,6 +36,9 @@ class SubjectList extends Component {
                                         <tr>
                                             <td>Puzzle</td>
                                             <td>01/01/2000</td>
+                                            <td>
+                                                <Button color="warning">Delete</Button>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </Table>

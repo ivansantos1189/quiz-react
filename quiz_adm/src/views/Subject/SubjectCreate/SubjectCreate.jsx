@@ -5,10 +5,12 @@ import {
     Card,
     CardHeader,
     CardBody,
+    CardFooter,
     Form,
     FormGroup,
     Label,
-    Input
+    Input,
+    Button
 } from 'reactstrap'
 
 class SubjectCreate extends Component {
@@ -35,6 +37,9 @@ class SubjectCreate extends Component {
                                     </FormGroup>
                                 </Form>
                             </CardBody>
+                            <CardFooter>
+                                <Button type="button" color="primary">Create</Button>
+                            </CardFooter>
                         </Card>
                     </Col>
                 </Row>
