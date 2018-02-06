@@ -2,5 +2,5 @@
   "name": "SubjectList",
   "version": "0.0.0",
   "private": true,
-  "main": "./SubjectCreate.js"
+  "main": "./SubjectCreate.jsx"
 }

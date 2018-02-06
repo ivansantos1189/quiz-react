@@ -2,5 +2,5 @@
   "name": "SidebarFooter",
   "version": "0.0.0",
   "private": true,
-  "main": "./SidebarFooter.js"
+  "main": "./SidebarFooter.jsx"
 }

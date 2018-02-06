@@ -2,5 +2,5 @@
   "name": "SidebarForm",
   "version": "0.0.0",
   "private": true,
-  "main": "./SidebarForm.js"
+  "main": "./SidebarForm.jsx"
 }
