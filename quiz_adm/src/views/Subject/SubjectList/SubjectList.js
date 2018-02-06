@@ -7,6 +7,8 @@ import {
     CardBody,
     Table
 } from 'reactstrap'
+import { connect } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 class SubjectList extends Component {
     constructor(props) {
@@ -21,7 +23,7 @@ class SubjectList extends Component {
                         <Card>
                             <CardHeader> Listing </CardHeader>
                             <CardBody>
-                                <a href="/subject/new" className="btn btn-primary mb-4">Create Subject</a>
+                                <Link to="/subject/new" className="btn btn-primary mb-4">Create Subject</Link>
                                 <Table responsive>
                                     <thead>
                                         <tr>
